@@ -1,0 +1,74 @@
+/* =========================
+PENGATURAN DASAR HALAMAN
+========================= */
+BODY {
+FONT-FAMILY: ARIAL,HELVETICA, SANS-SERIF; FONT-SIZE: 16PX;
+LINE-HEIGHT: 1.7; BACKGROUND-COLOR: #F4F4F4; COLOR:
+#333333;
+MARGIN: 0;
+}
+/* =========================
+
+HEADER
+========================= */
+header {
+    background: linear-gradient(135deg, #1aac52, #0d9488);
+    color: rgb(255, 0, 0);
+    text-align: center;
+    padding: 30px;
+}
+HEADER H1 {
+FONT-SIZE: 32PX; FONT-WEIGHT: BOLD;
+MARGIN-BOTTOM: 5PX; color: #ff0000;
+}
+.PROFESI {
+FONT-SIZE: 18PX;
+FONT-WEIGHT: NORMAL;
+color: #0f382b;
+text-align: center;
+}
+.FOTO-PROFIL { WIDTH: 150PX; HEIGHT: 150PX;
+BORDER-RADIUS: 20%; BORDER: 4PX SOLID rgb(255, 0, 0);
+}
+
+/* =========================
+KONTEN UTAMA
+========================= */
+MAIN {
+WIDTH: 80%; MARGIN: 30PX AUTO;
+BACKGROUND-COLOR: WHITE; PADDING: 30PX;
+}
+SECTION {
+MARGIN-BOTTOM: 30PX;
+}
+H2 {
+COLOR: #ff0000; FONT-SIZE: 23PX;
+BORDER-BOTTOM: 2PX SOLID #ff0000; PADDING-BOTTOM: 5PX;
+}
+P {
+FONT-SIZE: 16PX; TEXT-ALIGN: JUSTIFY;
+}
+UL {
+LINE-HEIGHT: 1.8;
+}
+
+/* =========================
+HYPERLINK
+========================= */
+A {
+COLOR: #006699;
+TEXT-DECORATION: NONE;
+}
+A:HOVER {
+TEXT-DECORATION: UNDERLINE;
+}
+/* =========================
+FOOTER
+========================= */
+FOOTER {
+BACKGROUND-COLOR: RGB(30, 30, 30); COLOR: rgb(255, 0, 0);
+TEXT-ALIGN: CENTER; PADDING: 15PX;
+}
+FOOTER P {
+TEXT-ALIGN: CENTER; FONT-SIZE: 14PX;
+}
